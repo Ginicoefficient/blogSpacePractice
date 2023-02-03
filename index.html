@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <h3>BlogSpace</h3>
+    </nav>
+    <form class="blog-submission">
+      <label></label>
+      <input
+        type="text"
+        name="blog-title-field"
+        id="blog-title-field"
+        placeholder="Blog Title"
+        aria-label="Blog Title"
+      />
+      <textarea
+        name="blog-body-field"
+        id="blog-body-field"
+        placeholder="Blog Body"
+        aria-label="Blog Body"
+      ></textarea>
+      <button type="submit" class="primary-btn" id="submit">
+        Submit New Post
+      </button>
+    </form>
+    <div class="blog-content" id="blog-content"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
