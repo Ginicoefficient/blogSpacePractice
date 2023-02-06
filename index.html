@@ -14,8 +14,8 @@
     <nav class="nav">
       <h3>BlogSpace</h3>
     </nav>
-    <form class="blog-submission">
-      <label></label>
+    <form class="blog-submission" id="blog-submission">
+      <label for="blog-title-field" hidden>Title:</label>
       <input
         type="text"
         name="blog-title-field"
@@ -23,6 +23,7 @@
         placeholder="Blog Title"
         aria-label="Blog Title"
       />
+      <label for="blog-body-field" hidden>Body:</label>
       <textarea
         name="blog-body-field"
         id="blog-body-field"
